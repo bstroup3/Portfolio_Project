@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <title>Ben Stroup's Portfolio</title>
+    
+    <body style="background-color:#2C3E50"> 
+
+        <nav id="sidebar" class="side">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#1">Ben Stroup</a>
+            <a href="#2">About Me</a>
+            <a href="#3">Work Experience</a>
+            <a href="#4">Projects</a>
+            <a href="#5">Contact Me</a>
+        </nav>
+        <div class="bar">
+            <p onclick="openNav()">&#9776; Menu</p>
+        </div>
+
+        <div id="1" class="fwh-slide" name="Name" style="text-align:center; transition-delay: 200ms;">
+            <h1 class="titlecenter">Ben <br>Stroup.</h1>
+            <div style="padding: 50px; padding-left: 620px;">
+                <img src="GitHub.png" alt="GitHub" onclick="window.open('https:\/\/github.com/bstroup3', '_blank')" style="height: 64px; width: 64px; float: left">
+
+                <img src="linkedin.png" alt="LinkedIn" onclick="window.open('https:\/\/www.linkedin.com/in/benjamin-stroup-2939a6193/', '_blank')" style="width:64px; height:64px; float: left; margin-left: 10px; margin-right: 10px;">
+
+                <img src="Email.png" alt="Email" style="width:64px; height:64px; float: left">
+            </div>
+        </div>
+
+        <div id="2" class="fwh-slide" name="About" style="text-align: center;">
+            <h1 class="header">About Me</h1>
+            <p class="abouttext">
+                Hi! <br>My name is Ben Stroup and I am a senior at <br><a id="AboutText">Iowa State University.</a> <br>
+                I am studying Software Engineering, and these are some of my projects!
+            </p>
+            <script src="javascript/color.js"></script>
+        </div>
+            
+        <div id="3" class="fwh-slide" name="work" style="text-align: center">
+            <h1 class="header">Work Experience</h1>
+            <table class="worktable">
+                <tr style="border: 2px solid">
+                    <th>Company</th>
+                    <th>Position</th>
+                    <th>Position-Type</th>
+                </tr style="border: 2px solid">
+                <tr>
+                    <th>Casey's</th>
+                    <th>Software Engineer Intern</th>
+                    <th>Intern</th>
+
+                </tr>
+                <tr>
+                    <th>Casey's</th>
+                    <th>Operations Analyst/App Support IT</th>
+                    <th>Part-Time</th>
+                </tr>
+            </table>
+        </div>
+
+        <div id="4" class="fwh-slide" name="Projects" style="text-align:center">
+            <h2 class="header">Projects</h2>
+
+            <table class="projecttable">
+                <tr>
+                    <th>
+                        <div>
+                            <h3>CaCyno</h3>
+                    
+                            <p>
+                                This is a project that some of my friends and I worked on during our <b>COMS309</b> Project course.<br>
+                                This application is an online casino that you can play texas hold'em in.
+                            </p>
+                        
+                            <form action="https://github.com/bstroup3/Cacyno" method="get" target="_blank">
+                                <button>View Code</button>
+                            </form>
+
+                            <form action="https://youtu.be/ITQ2fFHbL_M" method="get" target="_blank">
+                                <button>Demo</button>
+                            </form>
+                        </div>
+                    </th>
+                    <th>
+                        <div>  
+                            <h3>Spotify Playlist Creator</h3>
+                        
+                            <p>This project peaked my interest becasue I am always listening to music and I use Spotify to listen to music and create all my playlists</p>
+                        
+                            <form action="https://github.com/bstroup3/SpotifyProjectWithoutSecret" method="get" target="_blank">
+                                <button>View Code</button>
+                            </form>
+                        </div>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <div>
+                            <h3>Piano Man</h3>
+                    
+                            <p>
+                                This project was one that some friends and I worked on for <b>COMS319</b> class. <br>
+                                We created an online web application that was a piano and when you click on a note on the piano it would play the correct note.
+                            </p>
+                    
+                            <form action="https://github.com/bstroup3/PianoMan" method="get" target="_blank">
+                                <button>View Code</button>
+                            </form>
+
+                            <form action="PianoMan/display.html" metyhof="get" target="_blank">
+                                <button>Demo</button>
+                            </form>
+                        </div>
+                    </th>
+                    <th>
+                        <div>
+                            <h3>Dungeon</h3>
+                    
+                            <p>
+                                This project was for my <b>COMS327</b> class where we worked in groups to create a rogue like game with game difficuties and level generation.<br>
+                                This game was coded in C and then converted to C++ half way through the semester.
+                            </p>
+                        
+                            <form action="https://github.com/bstroup3/CS327Project0/tree/main/homework9" method="get" target="_blank">
+                                <button>View Code</button>
+                            </form>
+                        </div>
+                    </th>
+                </tr>
+            </table>
+            </div>
+
+        <div id="5" class="fwh-slide">
+            <h2 class="header">Contact Me</h2>
+        </div>
+        <script>
+            function openNav() {
+                document.getElementById("sidebar").style.width = "200px";
+            }
+  
+            function closeNav() {
+                document.getElementById("sidebar").style.width = "0";
+            }
+        </script> 
+        
+    </body> 
+</html>
