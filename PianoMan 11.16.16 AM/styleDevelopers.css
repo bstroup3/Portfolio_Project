@@ -1,0 +1,37 @@
+body {
+    background-color: #fffaf0;
+    display: grid;
+    justify-items: center;
+    columns: 2;
+    padding-top: 10%;
+}
+
+div{
+    font-family: 'Courier New', Courier, monospace;
+    width: 50%;
+    height: 110%;
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.description{
+    font-size: 50%;
+    font-weight: 100;
+}
+.caden{
+  grid-column: 1;
+  grid-row: 1;
+}
+.jack{
+  grid-column: 2;
+  grid-row: 1;
+}
+.manny{
+    grid-row: 2;
+    grid-column: 1;
+}
+.ben{
+    grid-row: 2;
+    grid-column: 2;
+}
